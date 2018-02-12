@@ -11,7 +11,7 @@ import { ServiceService } from '../service.service'
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _service: ServiceService) { }
 
   ngOnInit() {
   }
